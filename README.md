@@ -8,4 +8,3 @@
 
 ## 运行教程（脚本自编）
 './ORB_SLAM2_with_AndroidPhone.sh'
->>>>>>> e0ca4a1 (LocalMapping)
