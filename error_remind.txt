@@ -1,0 +1,7 @@
+ORBSLAM2与奥比中光gemini相机连接运行 出现 段错误（核心已转储）
+
+解决：
+1.调整Eigen版本为3.2 			无果
+2.检查显存是否已满			无果
+3.检查SDK安装，深度信息是否传入		已解决
+4.更改gemini launch文件，修改 <arg name="depth_registration" default="false"/> 为true 问题解决
